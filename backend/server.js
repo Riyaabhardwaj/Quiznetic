@@ -1,6 +1,6 @@
+import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
-import 'dotenv/config'
 import { connectDB } from './config/db.js';
 import userRouter from './routes/userRoutes.js';
 import resultRouter from './routes/resultRoutes.js';
